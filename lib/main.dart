@@ -8,7 +8,7 @@ void main() => runApp(MaterialApp(
      backgroundColor: Colors.cyanAccent,
    ),
     body: const Center(
-      child: Text("Hello 'Kisuki'"),
+      child: Text("Hello 'Kisuki!'"),
     ),
  ),
 ));
