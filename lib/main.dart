@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutterproject/views/kisuki_shop.dart';
 
-void main() => runApp(MaterialApp(
-  home: Scaffold(
-   appBar: AppBar(
-      title: const Text('Kisuki Delivery'),
-     centerTitle: true,
-     backgroundColor: Colors.cyanAccent,
-   ),
-    body: const Center(
-      child: Text("Hello 'Kisuki!'"),
-    ),
- ),
-));
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  const MyApp({key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Kisuki',
+
+      home: KisukiShop(),
+    );
+  }
+}
